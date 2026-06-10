@@ -1,5 +1,25 @@
 export const projects = [
   {
+    title: "The Walking Dead - Survival Strategy Game",
+    description:
+      "The Walking Dead - Survival Strategy Game is a browser-based, turn-based strategy game inspired by the comic universe. Built as a static web application, it features a custom canvas-rendered hex-grid board, local two-player gameplay, character drafting, class-based units, dice-based combat, resource management, factory construction, and multiple competitive or cooperative endings. The project also includes persistent save/load support, bilingual UI translations, light and dark themes, audio settings, modular runtime-loaded HTML fragments, and asset preloading for a smoother gameplay experience.",
+    tech: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "JavaScript ES Modules",
+      "Canvas API",
+      "jQuery",
+      "JSON",
+      "LocalStorage",
+      "Netlify"
+    ],
+    image: "/projects/twd.webp",
+    live: "https://twd-game.netlify.app/",
+    frontend: "https://github.com/Pizzaboi87/twd-game",
+    youtube: "https://youtu.be/UBxKbFJJzYY"
+  },
+  {
     title: "Adidas Brand Site",
     description:
       "The Adidas Brand Site reimagines the Adidas experience through design, interactivity, and intelligent functionality. The site integrates machine learning for natural-language product search, semantic recommendations, and AI-powered comparisons, blending heritage and modern technology. Featuring 3D product models, and smooth animations, it delivers an immersive and performant experience across devices. Additional features include an AI chat scoped to Adidas-related knowledge, a global store locator with Street View, and dynamic Open Graph metadata for SEO.",
