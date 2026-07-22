@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "Furever Home - Pet Shelter CRM",
+    description:
+      "Furever Home is a comprehensive pet shelter CRM and public adoption platform designed around realistic day-to-day workflows. The protected staff area supports animal, contact, case, application, follow-up, task, and activity management, while the public website allows visitors to explore adoptable pets, submit inquiries, apply for adoption or volunteering, and make donations. The project focuses on structured processes, clear relationships between records, privacy safeguards, publication controls, operational analytics, and a responsive user experience across both the internal and public-facing interfaces. It demonstrates a complete shelter ecosystem.",
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "GraphQL Yoga",
+      "Prisma",
+      "PostgreSQL",
+      "Prisma Accelerate",
+      "Auth0",
+      "Cloudinary",
+      "Stripe",
+      "Resend",
+      "Zod",
+      "Apache ECharts",
+      "Framer Motion",
+      "Playwright",
+      "GitHub Actions",
+    ],
+    image: "/projects/furever-home.webp",
+    frontend: "https://github.com/Pizzaboi87/furever-home",
+    live: "https://weiser-furever.vercel.app",
+    youtube: "https://www.youtube.com/watch?v=t2mM_FO8pSc",
+  },
+  {
     title: "The Walking Dead - Survival Strategy Game",
     description:
       "The Walking Dead - Survival Strategy Game is a browser-based, turn-based strategy game inspired by the comic universe. Built as a static web application, it features a custom canvas-rendered hex-grid board, local two-player gameplay, character drafting, class-based units, dice-based combat, resource management, factory construction, and multiple competitive or cooperative endings. The project also includes persistent save/load support, bilingual UI translations, light and dark themes, audio settings, modular runtime-loaded HTML fragments, and asset preloading for a smoother gameplay experience.",
@@ -207,28 +235,5 @@ export const projects = [
     frontend: "https://github.com/Pizzaboi87/pastry-shop-website",
     live: "https://ciel-sucre.vercel.app/",
     youtube: "https://youtu.be/9PgDP26Clq4?si=kxHT5iODZjqzcRQ9"
-  },
-  {
-    title: "Food Order App",
-    description: "This project is a React Native food ordering app with Google login integration, powered by Firebase, Stripe payments, and featuring password reset, order history, address editing, and unique menu generated using Chat GPT. Tested on Android, the app aims to offer a functional, real-life experience in several cities around the world.",
-    tech: [
-      "React Native",
-      "Expo",
-      "Firebase",
-      "Firestore",
-      "Firebase Auth",
-      "Stripe",
-      "Google Sign-In",
-      "React Navigation",
-      "React Native Maps",
-      "React Native Paper",
-      "Styled Components",
-      "Camera Access",
-      "Image Picker",
-    ],
-    image: "/projects/food-order.webp",
-    frontend: "https://github.com/Pizzaboi87/react-native-food-order-app",
-    live: "https://github.com/Pizzaboi87/app-downloads/releases/download/v1.0.0-pizzaboi/pizzaboi.apk",
-    youtube: "https://youtu.be/EkIuVDYltgA?si=fj8tUKRoKXTrCohr"
-  },
+  }
 ]
