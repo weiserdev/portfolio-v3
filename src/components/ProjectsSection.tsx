@@ -24,8 +24,7 @@ const ProjectsSection = () => (
                         Featured Projects
                     </h3>
                     <p className="sm:text-lg xs:text-md text-sm max-w-2xl font-bold mx-auto text-gray-600 dark:text-gray-400">
-                        A selection of projects that showcase my skills in frontend development, full-stack applications, and
-                        creative problem-solving.
+                        A selection of full-stack products, mobile apps, games, and interactive experiences built from idea to working product.
                     </p>
                 </ClipText>
             </motion.div>

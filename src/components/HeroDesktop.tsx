@@ -24,11 +24,10 @@ const HeroDesktop = () => (
                 </ClipText>
                 <ClipText>
                     <p className="text-lg sm:text-xl lg:text-base xl:text-2xl lg:min-w-[35rem] pb-4 font-bold leading-relaxed text-gray-700 dark:text-gray-300">
-                        Frontend Developer &amp; Creative Technologist
+                        Creative Full-Stack Product Developer
                     </p>
                     <p className="text-base sm:text-lg lg:text-[0.75rem] xl:text-lg font-semibold xl:leading-relaxed lg:leading-5 leading-relaxed max-w-lg text-gray-600 dark:text-gray-400">
-                        I craft digital experiences that blend beautiful design with<br className="hidden md:block" />
-                        cutting-edge technology.
+                        I build complete digital products from idea to pixel.
                     </p>
                 </ClipText>
             </div>

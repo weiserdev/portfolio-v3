@@ -47,8 +47,8 @@ const ContactSection = () => {
                         <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-pearl">
                             Let’s Work Together
                         </h3>
-                        <p className="sm:text-lg xs:text-md text-sm font-semibold max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
-                            Have a project in mind? I’d love to hear about it. <br />Let’s build something great together.
+                        <p className="sm:text-lg xs:text-md text-sm font-semibold max-w-xl mx-auto text-gray-600 dark:text-gray-400">
+                            Have a product idea, creative concept, or existing application that needs to move forward? Let&apos;s build something great together.
                         </p>
                     </ClipText>
                 </motion.div>
@@ -83,7 +83,7 @@ const ContactSection = () => {
                                     </div>
                                     <div className="mt-8 pt-6 border-t border-gray-300 dark:border-gray-600">
                                         <p className="text-gray-600 dark:text-pearl">
-                                            I’m always open to new ideas and challenges. Whether you’re a startup or an established company, let’s build something awesome together.
+                                            I&apos;m open to product-focused full-stack and frontend opportunities, as well as selected freelance and contract projects across Europe.
                                         </p>
                                     </div>
                                 </ClipText>

@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Furever Home - Pet Shelter CRM",
     description:
-      "Furever Home is a comprehensive pet shelter CRM and public adoption platform designed around realistic day-to-day workflows. The protected staff area supports animal, contact, case, application, follow-up, task, and activity management, while the public website allows visitors to explore adoptable pets, submit inquiries, apply for adoption or volunteering, and make donations. The project focuses on structured processes, clear relationships between records, privacy safeguards, publication controls, operational analytics, and a responsive user experience across both the internal and public-facing interfaces. It demonstrates a complete shelter ecosystem.",
+      "Furever Home is a comprehensive pet shelter CRM and public adoption platform built around realistic day-to-day workflows. The protected staff area supports animal, contact, case, application, follow-up, task, and activity management, while the public website allows visitors to explore adoptable pets, submit inquiries, apply for adoption or volunteering, and make donations. The project emphasizes structured processes, clear relationships between records, privacy safeguards, publication controls, operational insights, and a responsive experience across both internal and public-facing interfaces. Together, these features form a complete shelter management ecosystem.",
     tech: [
       "Next.js",
       "React",
@@ -22,7 +22,7 @@ export const projects = [
       "Playwright",
       "GitHub Actions",
     ],
-    image: "/projects/furever-home.webp",
+    image: "/projects/furever.webp",
     frontend: "https://github.com/Pizzaboi87/furever-home",
     live: "https://weiser-furever.vercel.app",
     youtube: "https://www.youtube.com/watch?v=t2mM_FO8pSc",
@@ -30,7 +30,7 @@ export const projects = [
   {
     title: "The Walking Dead - Survival Strategy Game",
     description:
-      "The Walking Dead - Survival Strategy Game is a browser-based, turn-based strategy game inspired by the comic universe. Built as a static web application, it features a custom canvas-rendered hex-grid board, local two-player gameplay, character drafting, class-based units, dice-based combat, resource management, factory construction, and multiple competitive or cooperative endings. The project also includes persistent save/load support, bilingual UI translations, light and dark themes, audio settings, modular runtime-loaded HTML fragments, and asset preloading for a smoother gameplay experience.",
+      "The Walking Dead - Survival Strategy Game is a browser-based, turn-based strategy game inspired by the comic book universe. Built as a static web application, it features a custom canvas-rendered hex-grid board, local two-player gameplay, character drafting, class-based units, dice-based combat, resource management, factory construction, and multiple competitive or cooperative outcomes. The project also includes persistent save and load support, bilingual UI translations, light and dark themes, audio settings, modular runtime-loaded HTML fragments, and asset preloading for a smoother gameplay experience.",
     tech: [
       "HTML5",
       "CSS3",
@@ -40,17 +40,17 @@ export const projects = [
       "jQuery",
       "JSON",
       "LocalStorage",
-      "Netlify"
+      "Netlify",
     ],
     image: "/projects/twd.webp",
     live: "https://twd-game.netlify.app/",
     frontend: "https://github.com/Pizzaboi87/twd-game",
-    youtube: "https://youtu.be/UBxKbFJJzYY"
+    youtube: "https://youtu.be/UBxKbFJJzYY",
   },
   {
-    title: "Adidas Brand Site",
+    title: "Adidas Brand Experience",
     description:
-      "The Adidas Brand Site reimagines the Adidas experience through design, interactivity, and intelligent functionality. The site integrates machine learning for natural-language product search, semantic recommendations, and AI-powered comparisons, blending heritage and modern technology. Featuring 3D product models, and smooth animations, it delivers an immersive and performant experience across devices. Additional features include an AI chat scoped to Adidas-related knowledge, a global store locator with Street View, and dynamic Open Graph metadata for SEO.",
+      "The Adidas Brand Experience explores the brand through design, interactivity, and intelligent functionality. The site uses AI models and services for natural-language product search, semantic recommendations, and AI-powered comparisons, connecting Adidas heritage with modern technology. Featuring 3D product models and smooth animations, it delivers an immersive and performant experience across devices. Additional features include an AI chat focused on Adidas-related knowledge, a global store locator with Street View, and dynamic Open Graph metadata for social sharing.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -68,12 +68,12 @@ export const projects = [
     image: "/projects/adidas.webp",
     live: "https://weiser-adidas.vercel.app",
     frontend: "https://github.com/Pizzaboi87/adidas-brand-site",
-    youtube: "https://youtu.be/seFdUCY5SCM?si=RRxUbiP4eDSEb0PL"
+    youtube: "https://youtu.be/seFdUCY5SCM?si=RRxUbiP4eDSEb0PL",
   },
   {
     title: "RGS Marketing Website",
     description:
-      "The official marketing site of Richmond Global Sciences, rebuilt from scratch using Next.js, TypeScript, and Tailwind CSS. Originally a Webflow project, the site was fully reengineered for performance, maintainability, and design consistency. It communicates RGS’s impact-focused data products, ESG-aligned tools, and investment solutions across environmental, social, and governance dimensions. Fully responsive and optimized for public audiences, the site ensures clarity and technical precision in presenting the firm’s methodology and mission.",
+      "The official marketing website of Richmond Global Sciences, rebuilt from scratch with Next.js, TypeScript, and Tailwind CSS. Originally created in Webflow, the site was fully reengineered to improve performance, maintainability, accessibility, and visual consistency. It presents the company's products, research, methodology, and investment-focused services through a clearer and more flexible content experience. Fully responsive and optimized for public audiences, the website balances precise technical information with an approachable and consistent visual presentation.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -82,16 +82,16 @@ export const projects = [
       "React Hot Toast",
       "React Fast Marquee",
       "React Headless Accordion",
-      "React Share"
+      "React Share",
     ],
     image: "/projects/rgs-main.webp",
     live: "https://rgsciences.com",
-    youtube: "https://youtu.be/9sz2vA-TfUE?si=FI5IfLqC9bC9d_Ze"
+    youtube: "https://youtu.be/9sz2vA-TfUE?si=FI5IfLqC9bC9d_Ze",
   },
   {
     title: "Learn Greek Verbs",
     description:
-      "Learn Greek Verbs is a mobile learning game for practicing Modern Greek verb conjugation at beginner level. Built with React Native and Expo, it supports four tenses (Present, Simple Past, Imperfect, and Future). Players select a tense and verb, then match randomly shown personal pronouns with the correct verb form displayed on the sails of ancient ships. Features include a lives system, scoring, and SVG-based animated visuals.",
+      "Learn Greek Verbs is a mobile learning game for practicing Modern Greek verb conjugation at beginner level. Built with React Native and Expo, it supports four tenses: Present, Simple Past, Imperfect, and Future. Players select a tense and a verb, then match randomly displayed personal pronouns with the correct conjugated form shown on the sails of ancient ships. Features include a lives system, scoring, sound feedback, and animated SVG visuals designed around a playful Mediterranean theme.",
     tech: [
       "React Native",
       "Expo",
@@ -107,11 +107,12 @@ export const projects = [
     image: "/projects/greek-verbs.webp",
     frontend: "https://github.com/Pizzaboi87/learn-greek-verbs",
     live: "https://github.com/Pizzaboi87/app-downloads/releases/download/v1.0.0-learn-greek/learn_greek_verbs.apk",
-    youtube: "https://youtu.be/owwXpQGKzNQ?si=Hh6w7QwE37rwc9EQ"
+    youtube: "https://youtu.be/owwXpQGKzNQ?si=Hh6w7QwE37rwc9EQ",
   },
   {
-    title: "Esplend’or Rings",
-    description: "Esplend'or Rings is a premium webshop for engagement and wedding rings. Built with Next.js, TypeScript, and Strapi, it offers features like a wishlist, advanced filters, secure Stripe payments, and cart synchronization for both guests and registered users. Fully responsive and elegantly designed, it provides a seamless shopping experience.",
+    title: "Esplend'or Rings",
+    description:
+      "Esplend'or Rings is a premium e-commerce experience for engagement and wedding rings. Built with Next.js, TypeScript, and Strapi, it includes wishlists, advanced product filters, secure Stripe payments, and synchronized shopping carts for both guests and registered users. The responsive interface combines a distinctive visual identity with practical shopping features, creating a polished and consistent journey from product discovery to checkout.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -128,17 +129,18 @@ export const projects = [
       "react-hook-form",
       "react-datepicker",
       "react-select",
-      "SweetAlert2"
+      "SweetAlert2",
     ],
     image: "/projects/esplendor.webp",
     frontend: "https://github.com/Pizzaboi87/esplendor-strapi",
     backend: "https://github.com/Pizzaboi87/esplendor-strapi-backend",
     live: "https://esplendor-rings.vercel.app",
-    youtube: "https://youtu.be/JD5IEQGQ_Ns?si=E2B6Mn0vQIo-1-bn"
+    youtube: "https://youtu.be/JD5IEQGQ_Ns?si=E2B6Mn0vQIo-1-bn",
   },
   {
     title: "RIFT Portal",
-    description: "RGS RIFT is a data-driven web application built with Next.js, Tailwind, and React Query, designed to deliver interactive analytics and visualizations. Featuring tools like Nivo charts, ag-Grid, and custom PDF generation, it provides a seamless user experience for ESG and climate analytics. Fully responsive and optimized for modern browsers, RGS RIFT is tailored for actionable insights in financial and environmental sectors.",
+    description:
+      "RGS RIFT is an impact-accounting platform for investors and corporate users. I rebuilt its frontend from Create React App to Next.js and TypeScript, improving stability, maintainability, and the overall development foundation. As the primary frontend owner, I continue to deliver new product features, UX improvements, performance optimizations, accessibility work, reporting tools, and reliable interfaces for complex business and data requirements across a large and continuously evolving application.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -157,7 +159,7 @@ export const projects = [
       "Axios",
       "Lottie",
       "Shepherd.js",
-      "React DnD"
+      "React DnD",
     ],
     image: "/projects/rift.webp",
     live: "https://rift.rgsciences.com",
@@ -165,7 +167,8 @@ export const projects = [
   },
   {
     title: "Batman Fan Page",
-    description: "This fully functional and responsive single page application was built with React from the ground up, without relying on any additional libraries or pre-made components. The data comes from both a modified API provided by Comic Vine and my own sources, which I've organized into a SQL database and stored on my own server. The back-end code is also available on GitHub.",
+    description:
+      "Batman Fan Page is a fully functional and responsive single-page application built with React and supported by a custom backend. It combines data from a modified Comic Vine API with additional content organized in a MySQL database and served through an Express application. The project includes searchable character and story information, routing, asynchronous data handling, transitions, and a distinctive interface inspired by the visual world of Batman. Both the frontend and backend source code are available on GitHub.",
     tech: [
       "Vite",
       "React",
@@ -177,17 +180,18 @@ export const projects = [
       "Styled Components",
       "CORS",
       "Fetch API",
-      "React Transition Group"
+      "React Transition Group",
     ],
     image: "/projects/batman.webp",
     frontend: "https://github.com/Pizzaboi87/batman",
     backend: "https://github.com/Pizzaboi87/batserver",
     live: "https://weiser-batman.netlify.app",
-    youtube: "https://youtu.be/rk0UGvzb22I?si=h7WOzfDL3vNwmyIZ"
+    youtube: "https://youtu.be/rk0UGvzb22I?si=h7WOzfDL3vNwmyIZ",
   },
   {
     title: "WeisAIR Flights",
-    description: "This project aims to develop a comprehensive walk-in flight booking website using Next.js, TypeScript, Tailwind and Sanity.io. The goal is to provide a seamless online platform for users to explore services, make bookings, write reviews, and access additional features as registered users.",
+    description:
+      "WeisAIR Flights is a complete online flight booking experience built with Next.js, TypeScript, Tailwind CSS, and Sanity. It allows users to explore destinations and services, search available journeys, make bookings, write reviews, and access additional functionality through registered accounts. The project combines content management, authentication, payment integration, responsive design, and transactional user flows within a consistent fictional airline brand.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -205,11 +209,12 @@ export const projects = [
     image: "/projects/weisair.webp",
     frontend: "https://github.com/Pizzaboi87/weisair-flights",
     live: "https://weisair.vercel.app/",
-    youtube: "https://youtu.be/FMJVeyx7o3g?si=zW1pc2a_IMv115Fz"
+    youtube: "https://youtu.be/FMJVeyx7o3g?si=zW1pc2a_IMv115Fz",
   },
   {
-    title: "Le Ciel Sucre Pastry",
-    description: "The website of Le Ciel Sucré showcases an imaginary French pastry shop. Built with React, Firebase, Tailwind and serverless functions. The site has its own webshop (with Stripe, PayPal and Google Pay), admin panel, blog, user authentication and settings (colors, language).",
+    title: "Le Ciel Sucré Pastry",
+    description:
+      "Le Ciel Sucré is a complete digital experience for an imaginary French pastry shop. Built with React, TypeScript, Firebase, Tailwind CSS, and serverless functions, it includes an online store with Stripe, PayPal, and Google Pay, as well as an admin panel, blog, user authentication, and customizable interface settings for colors and language. The project combines e-commerce functionality, content management, and a distinctive visual identity in a responsive application.",
     tech: [
       "Vite",
       "React",
@@ -234,6 +239,6 @@ export const projects = [
     image: "/projects/pastry.webp",
     frontend: "https://github.com/Pizzaboi87/pastry-shop-website",
     live: "https://ciel-sucre.vercel.app/",
-    youtube: "https://youtu.be/9PgDP26Clq4?si=kxHT5iODZjqzcRQ9"
-  }
-]
+    youtube: "https://youtu.be/9PgDP26Clq4?si=kxHT5iODZjqzcRQ9",
+  },
+];

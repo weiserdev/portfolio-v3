@@ -16,16 +16,17 @@ const geologica = Geologica({
 });
 
 export const metadata: Metadata = {
-  title: "Peter Weiser Portfolio",
-  keywords: "HTML, CSS, JavaScript, TypeScript, React, Next, Tailwind, Frontend, Graphql",
+  title: "Peter Weiser | Creative Full-Stack Product Developer",
+  keywords:
+    "Peter Weiser, Creative Full-Stack Product Developer, Full-Stack Developer, Product Developer, Product Engineer, React, Next.js, TypeScript, PostgreSQL, GraphQL, Prisma, React Native, Node.js, Three.js, Tailwind CSS, AI-Assisted Development",
   description:
-    "Frontend Developer with strong experience in React, Next.js, TypeScript, and Tailwind CSS. Open to remote opportunities and freelance roles across Europe.",
+    "Creative Full-Stack Product Developer building complete digital products from idea to pixel, including web applications, mobile apps, e-commerce experiences, educational tools, interactive brand concepts, and games.",
   metadataBase: new URL("https://peterweiser.com"),
   authors: [{ name: "Peter Weiser", url: "https://peterweiser.com" }],
   openGraph: {
-    title: "Peter Weiser Portfolio",
+    title: "Peter Weiser | Creative Full-Stack Product Developer",
     description:
-      "Frontend Developer with strong experience in React, Next.js, TypeScript, and Tailwind CSS. Open to remote opportunities and freelance roles across Europe.",
+      "Creative Full-Stack Product Developer building complete digital products from idea to pixel.",
     url: "https://peterweiser.com",
     siteName: "Peter Weiser",
     images: [
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Peter Weiser - Frontend Developer Portfolio",
+        alt: "Peter Weiser - Creative Full-Stack Product Developer",
       },
     ],
     locale: "en_US",
@@ -72,7 +73,8 @@ export default function RootLayout({
               "name": "Peter Weiser",
               "url": "https://peterweiser.com",
               "image": "https://peterweiser.com/og-image.png",
-              "jobTitle": "Frontend Developer",
+              "jobTitle": "Creative Full-Stack Product Developer",
+              "description": "Creative Full-Stack Product Developer building complete digital products from idea to pixel.",
               "sameAs": [
                 "https://github.com/pizzaboi87",
                 "https://linkedin.com/in/peterweiser87"

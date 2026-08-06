@@ -23,11 +23,10 @@ const HeroMobile = () => (
             </ClipText>
             <ClipText>
                 <p className="md:text-3xl xs:text-lg text-[0.9rem] pb-2 font-bold">
-                    Frontend Developer &amp; Creative Technologist
+                    Creative Full-Stack Product Developer
                 </p>
                 <p className="md:text-2xl xs:text-base font-semibold text-sm text-gray-300 md:max-w-[80%]">
-                    I craft digital experiences that blend beautiful design with
-                    cutting-edge technology.
+                    I build complete digital products from idea to pixel.
                 </p>
             </ClipText>
             <div className="flex flex-row xs:gap-x-4 gap-x-2 justify-between xs:justify-start pt-4">
