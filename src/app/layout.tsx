@@ -76,8 +76,8 @@ export default function RootLayout({
               "jobTitle": "Creative Full-Stack Product Developer",
               "description": "Creative Full-Stack Product Developer building complete digital products from idea to pixel.",
               "sameAs": [
-                "https://github.com/pizzaboi87",
-                "https://linkedin.com/in/peterweiser87"
+                "https://github.com/weiserdev",
+                "https://linkedin.com/in/pweiser"
               ]
             }
           `}

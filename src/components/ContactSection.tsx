@@ -90,7 +90,7 @@ const ContactSection = () => {
                                 {/* Social icons */}
                                 <div className="mt-8 flex justify-evenly gap-5">
                                     <Link
-                                        href="https://github.com/pizzaboi87"
+                                        href="https://github.com/weiserdev"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Peter Weiser Github Profile"
@@ -98,7 +98,7 @@ const ContactSection = () => {
                                         <Icon icon="octicon:mark-github-24" className="md:w-12 w-10 md:h-12 h-10 text-gray-900 hover:text-[#0d74e7] dark:text-pearl cursor-pointer hover:scale-125 transition-transform duration-300" />
                                     </Link>
                                     <Link
-                                        href="https://linkedin.com/in/peterweiser87"
+                                        href="https://linkedin.com/in/pweiser"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         aria-label="Peter Weiser Linkedin Profile"

@@ -8,7 +8,7 @@ const ScrollIndicator = () => (
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 0.6 }}
-        className="hidden ms:block absolute bottom-6 right-0 lg:left-1/2 -translate-x-1/2 z-20"
+        className="hidden ms:block absolute bottom-6 right-0 lg:right-1/4 -translate-x-1/2 lg:translate-x-0 z-20"
     >
         <motion.div
             animate={{ y: [0, 10, 0] }}
